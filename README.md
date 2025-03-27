@@ -34,7 +34,7 @@ Add it in your root build.gradle at the end of repositories:
     android:layout_width="match_parent"
      android:layout_height="match_parent">
  </net.cryptobrewery.syntaxview.SyntaxView>
-```
+```XML
 - Step 2:
   add this to your java code
 ```
@@ -60,7 +60,7 @@ SyntaxView syntax_view = findViewById(R.id.syn);
  //this will set special characters color like ; 
     syntax_view.setSpecialCharsColor("#cc7832");
 
-```
+```Java
 <b>2nd way:</b>
 ```
 //this way will set default methods
